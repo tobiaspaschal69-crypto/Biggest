@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0f172a;
+    color: white;
+}
+
+/* HEADER */
+header {
+    background: #020617;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+nav a {
+    color: #38bdf8;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 60px;
+    background: linear-gradient(to right, #1d4ed8, #9333ea);
+}
+
+.hero button {
+    padding: 12px 25px;
+    border: none;
+    background: white;
+    color: #1d4ed8;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.hero button:hover {
+    transform: scale(1.1);
+}
+
+/* IMAGE */
+.image-section img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* PLANS */
+.plans {
+    padding: 40px;
+    text-align: center;
+}
+
+.plan {
+    background: #1e293b;
+    margin: 15px;
+    padding: 20px;
+    display: inline-block;
+    width: 250px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+    transition: 0.3s;
+}
+
+.plan:hover {
+    transform: translateY(-10px);
+}
+
+.vip {
+    border: 2px solid gold;
+}
+
+.plan button {
+    padding: 10px;
+    background: #38bdf8;
+    border: none;
+    border-radius: 5px;
+    color: black;
+}
+
+/* DASHBOARD */
+.dashboard {
+    padding: 20px;
+}
+
+.card {
+    background: #1e293b;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+}
+
+/* BUTTONS */
+button {
+    margin: 10px;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+/* BOUNCE ANIMATION */
+.bounce {
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}

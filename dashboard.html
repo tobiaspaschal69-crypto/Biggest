@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Dashboard</h1>
+    <a href="index.html">Home</a>
+</header>
+
+<section class="dashboard">
+    <h2>Welcome</h2>
+
+    <div class="card">
+        <h3>Your Balance</h3>
+        <p id="balance">$0</p>
+    </div>
+
+    <div class="card">
+        <h3>Selected Plan</h3>
+        <p id="plan">None</p>
+    </div>
+
+    <button onclick="deposit()">Deposit</button>
+    <button onclick="withdraw()">Withdraw</button>
+
+    <h3>Profile</h3>
+    <p>Name: User</p>
+    <p>Email: user@email.com</p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
